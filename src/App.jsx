@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Components/counter'
 import TodoList from './Components/TodoList'
+import Post from './Components/Post'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
     <>
      <Counter />
      <TodoList />
+     <Post />
     </>
   )
 }
